@@ -5,7 +5,7 @@
 //
 
 runtime_resource_overlay {
-    name: "TelephonyOverlayCK9n",
+    name: "SettingsOverlayCK8n",
     sdk_version: "current",
     resource_dirs: ["res"],
     product_specific: true,

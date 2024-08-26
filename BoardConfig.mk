@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/CK9n
+DEVICE_PATH := device/tecno/CK8n
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
 BUILD_BROKEN_DUP_RULES := true
@@ -40,7 +40,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
 # Bootloader
 BOARD_VENDOR := tecno
-TARGET_BOOTLOADER_BOARD_NAME := TECNO-CK9n
+TARGET_BOOTLOADER_BOARD_NAME := TECNO-CK8n
 TARGET_NO_BOOTLOADER := true
 
 # Boot Image
@@ -169,4 +169,4 @@ BOARD_VNDK_VERSION := current
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # Inherit the proprietary files
-include vendor/tecno/CK9n/BoardConfigVendor.mk
+include vendor/tecno/CK8n/BoardConfigVendor.mk

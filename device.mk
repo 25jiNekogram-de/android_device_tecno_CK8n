@@ -242,12 +242,12 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlayCK9n \
-    FrameworksResOverlayCK9n \
-    SettingsOverlayCK9n \
-    TelephonyOverlayCK9n \
-    TetheringConfigOverlayCK9n \
-    WifiOverlayCK9n
+    CarrierConfigOverlayCK8n \
+    FrameworksResOverlayCK8n \
+    SettingsOverlayCK8n \
+    TelephonyOverlayCK8n \
+    TetheringConfigOverlayCK8n \
+    WifiOverlayCK8n
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -426,4 +426,4 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/tecno/CK9n/CK9n-vendor.mk)
+$(call inherit-product, vendor/tecno/CK8n/CK8n-vendor.mk)

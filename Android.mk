@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter CK9n, $(TARGET_DEVICE)),)
+ifneq ($(filter CK8n, $(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 VENDOR_SYMLINKS := \

@@ -11,7 +11,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.frameworksres.overlay.CK9n" >
+    package="com.android.frameworksres.overlay.CK8n" >
 
     <overlay
       android:targetPackage="android"
